@@ -108,7 +108,7 @@ public class LoginTest extends BaseTest {
         //Actual
         WebElement actualText = driver.findElement(By.cssSelector("div.flash.error"));
         String actual = actualText.getText();
-
+        System.out.println(actual);
         //Expected
         String expected = "Your password is invalid!";
         System.out.println(expected);
