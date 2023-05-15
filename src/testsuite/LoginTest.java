@@ -111,6 +111,7 @@ public class LoginTest extends BaseTest {
 
         //Expected
         String expected = "Your password is invalid!";
+        System.out.println(expected);
 
         //Assert
         // Assert.assertEquals("Error message is not visible", expected, actual);
